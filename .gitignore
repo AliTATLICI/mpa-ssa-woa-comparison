@@ -28,8 +28,7 @@ wheels/
 .vscode/
 
 # Results and temporary files
-sonuclar/*.txt
-sonuclar/*.npy
+
 *.mat
 *.log
 

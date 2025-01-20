@@ -1,0 +1,23 @@
+Function: sphere
+Dimension: 30
+Population Size: 30
+Max Iterations: 500
+Number of Runs: 30
+
+Statistical Results:
+              MPA       SSA            WOA
+Best     0.000182  0.391714  1.714654e-146
+Worst    0.000642  7.063271  7.859125e-132
+Median   0.000350  2.879351  1.254750e-141
+Average  0.000364  2.977351  2.620004e-133
+Std      0.000114  1.283712  1.410751e-132
+
+Wilcoxon Signed-Rank Test Results:
+  Algorithm 1 Algorithm 2       p-value Significant
+0         MPA         SSA  1.862645e-09        True
+1         MPA         WOA  1.862645e-09        True
+2         SSA         WOA  1.862645e-09        True
+
+Friedman Test Results:
+Statistic: 60.0
+p-value: 9.357622968840163e-14
